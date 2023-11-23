@@ -1,0 +1,6 @@
+__pycache__/
+
+# environment folder
+analysis_nosql/
+
+.flaskenv

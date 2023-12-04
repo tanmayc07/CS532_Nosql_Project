@@ -1,6 +1,10 @@
 __pycache__/
+.DS_STORE
 
 # environment folder
 analysis_nosql/
+analysis-nosql/
 
+# env files
 .flaskenv
+.env

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Dynamic background colors for each button */
+        a:nth-child(1) {
+            background-color: #3498db;
+        }
+
+        a:nth-child(2) {
+            background-color: #e74c3c;
+        }
+
+        a:nth-child(3) {
+            background-color: #2ecc71;
+        }
+
+        a:nth-child(4){
+            background-color: rgb(255, 182, 80);
+        }
+
+        a:hover {
+            filter: brightness(90%); /* Slightly reduce brightness on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <a href="{{url_for('analysis_one')}}">Data Analysis #1</a>
+    <a href="{{url_for('analysis_two')}}">Data Analysis #2</a>
+    <a href="{{url_for('analysis_three')}}">Data Analysis #3</a>
+
+    <!-- You can include additional JavaScript or external libraries for more interactivity -->
+    <!-- For simplicity, I'm not adding JavaScript in this example -->
+</body>
+</html>

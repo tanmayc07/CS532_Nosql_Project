@@ -45,3 +45,21 @@ To run the app
 ```
 flask run [--debug]
 ```
+
+## Screenshots:
+
+`/`
+
+![Homepage](screenshots/home.png)
+
+`/data_analysis_one`
+
+![Analysis One](screenshots/one.png)
+
+`/data_analysis_two`
+
+![Analysis Two](screenshots/two.png)
+
+`/data_analysis_three`
+
+![Analysis Three](screenshots/three.png)
